@@ -112,3 +112,6 @@ C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse1.resources
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse2.resources
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse3.resources
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.PopulateCategoryTable.resources
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csprojAssemblyReference.cache
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.PopulateCategoryTable1.resources

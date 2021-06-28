@@ -7,6 +7,9 @@ namespace VoXuanTu_BigSchool1.Migrations
     {
         public override void Up()
         {
+            Sql("INSERT INTO CATEGORIES (ID,NAME) VALUES (1,'Developments')");
+            Sql("INSERT INTO CATEGORIES (ID,NAME) VALUES (2,'Business')");
+            Sql("INSERT INTO CATEGORIES (ID,NAME) VALUES (3,'Marketing')");
         }
         
         public override void Down()

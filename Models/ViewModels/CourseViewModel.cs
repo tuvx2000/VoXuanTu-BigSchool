@@ -1,5 +1,6 @@
 ﻿    using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 
@@ -16,7 +17,7 @@ namespace VoXuanTu_BigSchool1.Models.ViewModels
         public DateTime GetDateTime()
         {
             string dateString = Date + " " + Time;
-            return DateTime.ParseExact(dateString,@"d/M/yyy HH:mm", System.Globalization.CultureInfo.InvariantCulture);
+            return DateTime.ParseExact(dateString , "M/d/yyyy hh:mm", CultureInfo.InvariantCulture);
         }
 
     }

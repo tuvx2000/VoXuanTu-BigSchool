@@ -1,4 +1,3 @@
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csprojAssemblyReference.cache
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.InitialModel.resources
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse.resources
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.PopulateCategoryTable.resources
@@ -110,3 +109,4 @@ C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\Microsoft.CodeDom.Provider
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csproj.CopyComplete
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.dll
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.pdb
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csprojAssemblyReference.cache

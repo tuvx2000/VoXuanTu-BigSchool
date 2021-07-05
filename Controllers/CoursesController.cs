@@ -19,7 +19,7 @@ namespace VoXuanTu_BigSchool1.Controllers
             _dbContext = new ApplicationDbContext();
 
         }
-        /*
+        
         public ActionResult Create()
         {
             var viewModel = new CourseViewModel
@@ -27,9 +27,11 @@ namespace VoXuanTu_BigSchool1.Controllers
                 Categories = _dbContext.Categories.ToList()
             };
             return View(viewModel);
-        }*/
+        }
 
-
+        [HttpPost]
+        [Authorize]
+    
         public ActionResult Create(CourseViewModel viewModel)
         {
             var course = new Course

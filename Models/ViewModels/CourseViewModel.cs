@@ -17,7 +17,8 @@ namespace VoXuanTu_BigSchool1.Models.ViewModels
         public DateTime GetDateTime()
         {
             string dateString = Date + " " + Time;
-            return DateTime.ParseExact(dateString , "M/d/yyyy hh:mm", CultureInfo.InvariantCulture);
+            DateTime str = DateTime.ParseExact(dateString, "M/d/yyyy hh:mm",CultureInfo.InvariantCulture);
+            return str;
         }
 
     }

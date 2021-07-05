@@ -19,7 +19,7 @@ namespace VoXuanTu_BigSchool1.Controllers
             _dbContext = new ApplicationDbContext();
 
         }
-        
+        [HttpGet]
         public ActionResult Create()
         {
             var viewModel = new CourseViewModel
@@ -31,16 +31,20 @@ namespace VoXuanTu_BigSchool1.Controllers
 
         [HttpPost]
         [Authorize]
-    
         public ActionResult Create(CourseViewModel viewModel)
         {
+            if (!ModelState.IsValid)
+            {
+                viewModel.Categories = _dbContext.Categories.ToList();
+                return View("Create",viewModel);
+            }
             var course = new Course
             {
                 LecturerId = User.Identity.GetUserId(),
                 DateTime = viewModel.GetDateTime(),
                 CategoryId = viewModel.Category,
-                Place = viewModel.Place
-            };
+                Place = viewModel.Date
+        };
             _dbContext.Courses.Add(course);
             _dbContext.SaveChanges();
 

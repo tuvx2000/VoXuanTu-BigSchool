@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -22,6 +22,8 @@ namespace VoXuanTu_BigSchool1.Models
         public byte CategoryId { get; set; }
 
     }
+
+    
 
 
 }

@@ -1,3 +1,9 @@
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csprojAssemblyReference.cache
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.InitialModel.resources
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse.resources
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.PopulateCategoryTable.resources
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csproj.GenerateResource.cache
+C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csproj.CoreCompileInputs.cache
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\VoXuanTu-BigSchool1.dll.config
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\VoXuanTu-BigSchool1.dll
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\VoXuanTu-BigSchool1.pdb
@@ -101,17 +107,6 @@ C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\Microsoft.Owin.Security.Tw
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csproj.CoreCompileInputs.cache
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csproj.CopyComplete
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.dll
 C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.pdb
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.InitialModel.resources
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csproj.GenerateResource.cache
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.InitialModel1.resources
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse.resources
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse1.resources
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse2.resources
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.CreateTableCourse3.resources
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.PopulateCategoryTable.resources
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu-BigSchool1.csprojAssemblyReference.cache
-C:\Users\TuanVXM\source\repos\VoXuanTu-BigSchool1\obj\Debug\VoXuanTu_BigSchool1.Migrations.PopulateCategoryTable1.resources

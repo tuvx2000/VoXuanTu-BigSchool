@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -177,33 +178,13 @@
     <Compile Include="Migrations\202106280254096_InitialModel.Designer.cs">
       <DependentUpon>202106280254096_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202106280313252_InitialModel1.cs" />
-    <Compile Include="Migrations\202106280313252_InitialModel1.Designer.cs">
-      <DependentUpon>202106280313252_InitialModel1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202106280334586_CreateTableCourse.cs" />
     <Compile Include="Migrations\202106280334586_CreateTableCourse.Designer.cs">
       <DependentUpon>202106280334586_CreateTableCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202106280335592_CreateTableCourse1.cs" />
-    <Compile Include="Migrations\202106280335592_CreateTableCourse1.Designer.cs">
-      <DependentUpon>202106280335592_CreateTableCourse1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202106280336411_CreateTableCourse2.cs" />
-    <Compile Include="Migrations\202106280336411_CreateTableCourse2.Designer.cs">
-      <DependentUpon>202106280336411_CreateTableCourse2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202106280343338_CreateTableCourse3.cs" />
-    <Compile Include="Migrations\202106280343338_CreateTableCourse3.Designer.cs">
-      <DependentUpon>202106280343338_CreateTableCourse3.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202106280344334_PopulateCategoryTable.cs" />
     <Compile Include="Migrations\202106280344334_PopulateCategoryTable.Designer.cs">
       <DependentUpon>202106280344334_PopulateCategoryTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202106280550136_PopulateCategoryTable1.cs" />
-    <Compile Include="Migrations\202106280550136_PopulateCategoryTable1.Designer.cs">
-      <DependentUpon>202106280550136_PopulateCategoryTable1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -212,6 +193,7 @@
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ViewModels\CourseViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -271,6 +253,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Courses\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -292,26 +275,11 @@
     <EmbeddedResource Include="Migrations\202106280254096_InitialModel.resx">
       <DependentUpon>202106280254096_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280313252_InitialModel1.resx">
-      <DependentUpon>202106280313252_InitialModel1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106280334586_CreateTableCourse.resx">
       <DependentUpon>202106280334586_CreateTableCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280335592_CreateTableCourse1.resx">
-      <DependentUpon>202106280335592_CreateTableCourse1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280336411_CreateTableCourse2.resx">
-      <DependentUpon>202106280336411_CreateTableCourse2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280343338_CreateTableCourse3.resx">
-      <DependentUpon>202106280343338_CreateTableCourse3.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106280344334_PopulateCategoryTable.resx">
       <DependentUpon>202106280344334_PopulateCategoryTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280550136_PopulateCategoryTable1.resx">
-      <DependentUpon>202106280550136_PopulateCategoryTable1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

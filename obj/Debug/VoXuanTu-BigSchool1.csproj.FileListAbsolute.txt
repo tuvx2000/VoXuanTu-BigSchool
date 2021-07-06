@@ -221,3 +221,5 @@ C:\Users\TuanVXM\Desktop\New folder\VoXuanTu-BigSchool\obj\Debug\VoXuanTu-BigSch
 C:\Users\TuanVXM\Desktop\New folder\VoXuanTu-BigSchool\obj\Debug\VoXuanTu-BigSchool1.csproj.CopyComplete
 C:\Users\TuanVXM\Desktop\New folder\VoXuanTu-BigSchool\obj\Debug\VoXuanTu-BigSchool1.dll
 C:\Users\TuanVXM\Desktop\New folder\VoXuanTu-BigSchool\obj\Debug\VoXuanTu-BigSchool1.pdb
+C:\Users\TuanVXM\Desktop\New folder\VoXuanTu-BigSchool\obj\Debug\VoXuanTu-BigSchool1.csprojAssemblyReference.cache
+C:\Users\TuanVXM\Desktop\New folder\VoXuanTu-BigSchool\obj\Debug\VoXuanTu_BigSchool1.Migrations.AddNameColumnToApplicationUser.resources

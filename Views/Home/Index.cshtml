@@ -3,13 +3,53 @@
 @{
     ViewBag.Title = "Home Page";
 }
+<style>
 
-<div class="row">
-    <ul>
+    .course {
+        list-style: none;
+    }
+
+        .course > li {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+            .course > li .date {
+                text-align: center;
+                background-color: aqua;
+                color: white;
+                width: 60px;
+                border-radius: 8px;
+            }
+
+            .course > li .details {
+                position: absolute;
+                top: 0px;
+                left: 70px;
+            }
+</style>
+
+<div class="row bg">
+    <ul class="course">
         @foreach (var course in Model)
         {
         <li>
-            @course.DateTime - @course.Lecturer.Name Vo Xuan Tu(Static)
+            <div class="date">
+                <div class="month">
+                    @course.DateTime.ToString("MM");
+                </div>
+                <div class="day">
+                    @course.DateTime.ToString("dd");
+                </div>
+            </div>
+            <div class="details">
+                <span class="lecturer">
+                    @course.Lecturer.Name XuanTu(Static)
+                </span>
+                <span class="category">
+                    @course.Category.Name
+                </span>
+            </div>
         </li>
         }
     </ul>

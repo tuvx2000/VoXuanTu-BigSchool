@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace VoXuanTu_BigSchool1.Models
+namespace VoXuanTu_BigSchool001.Models
 {
     public class Category
     {

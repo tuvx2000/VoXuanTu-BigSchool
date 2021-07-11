@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace VoXuanTu_BigSchool1
+namespace VoXuanTu_BigSchool001
 {
     public class FilterConfig
     {

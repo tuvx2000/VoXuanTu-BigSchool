@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using VoXuanTu_BigSchool1.Models;
+using VoXuanTu_BigSchool001.Models;
 
-namespace VoXuanTu_BigSchool1
+namespace VoXuanTu_BigSchool001
 {
     public partial class Startup
     {

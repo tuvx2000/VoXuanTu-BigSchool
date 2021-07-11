@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace VoXuanTu_BigSchool1
+namespace VoXuanTu_BigSchool001
 {
     public class RouteConfig
     {

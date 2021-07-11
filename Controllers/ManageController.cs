@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using VoXuanTu_BigSchool1.Models;
+using VoXuanTu_BigSchool001.Models;
 
-namespace VoXuanTu_BigSchool1.Controllers
+namespace VoXuanTu_BigSchool001.Controllers
 {
     [Authorize]
     public class ManageController : Controller

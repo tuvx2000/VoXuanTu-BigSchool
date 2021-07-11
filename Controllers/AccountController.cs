@@ -8,14 +8,13 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using VoXuanTu_BigSchool1.Models;
+using VoXuanTu_BigSchool001.Models;
 
-namespace VoXuanTu_BigSchool1.Controllers
+namespace VoXuanTu_BigSchool001.Controllers
 {
-
     [Authorize]
     public class AccountController : Controller
-    {
+    {   
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -152,7 +151,7 @@ namespace VoXuanTu_BigSchool1.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Name = model.Name };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email,Name =model.Name };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
